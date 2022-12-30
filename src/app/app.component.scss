@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem 2rem;
+  }
+  .center{
+    display: flex;align-items: center;
+  }
+  ::ng-deep .p-button {
+   
+    background: #d26c22 !important;
+  }
+  ::ng-deep .p-inputtext:enabled:focus {
+    border-color: #d26c22 !important;
+    box-shadow: 0 0 0 0.2rem #eaceb9;
+}
+::ng-deep .p-inputtext:enabled:hover {
+    border-color: #eaceb9;
+}
